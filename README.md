@@ -126,16 +126,16 @@ dotnet run --project D&D/D&D.csproj
 
 Il progetto compila correttamente, ma dal codice emergono alcune limitazioni attuali:
 
-- il personaggio del giocatore viene creato senza equipaggiamento iniziale, anche se esiste un metodo dedicato per assegnarlo
-- non e' presente un menu di gestione dell'inventario o dell'equipaggiamento durante la partita
-- il ciclo di gioco non prevede vittoria, salvataggio o uscita guidata
-- il sistema di progressione esiste solo in forma base e non e' integrato nel flusso principale
-- alcune parti sembrano ancora in evoluzione o non ancora collegate al gameplay completo
+- Il personaggio del giocatore viene creato senza equipaggiamento iniziale, anche se esiste un metodo dedicato per assegnarlo
+- Non è presente un menu di gestione dell'inventario o dell'equipaggiamento durante la partita
+- Il ciclo di gioco non prevede vittoria, salvataggio o uscita guidata
+- Il sistema di progressione esiste solo in forma base e non è integrato nel flusso principale
+- Alcune parti sembrano ancora in evoluzione o non ancora collegate al gameplay completo
 
 ## Possibili sviluppi
 
-- assegnare l'equipaggiamento iniziale al personaggio appena creato
-- aggiungere menu per inventario, equip, loot e negozio
-- introdurre esperienza, level up e ricompense nel loop principale
-- ampliare il bestiario, le armi e gli eventi di esplorazione
-- migliorare il bilanciamento delle statistiche e delle regole di combattimento
+- Assegnare l'equipaggiamento iniziale al personaggio appena creato
+- Aggiungere menu per inventario, equip, loot e negozio
+- Introdurre esperienza, level up e ricompense nel loop principale
+- Ampliare il bestiario, le armi e gli eventi di esplorazione
+- Migliorare il bilanciamento delle statistiche e delle regole di combattimento
