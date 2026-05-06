@@ -1,5 +1,3 @@
-using System.Data.Common;
-
 public class Adventurer
 {
     private string? _name;
@@ -51,7 +49,7 @@ public class Adventurer
             { ItemSlot.Chest, null },
             { ItemSlot.Ring, null }
         };
-
+        
     }
     private int NotLowerThan8(int value)
     {
